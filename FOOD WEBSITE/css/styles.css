@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px
+}
+nav{
+    flex: auto;
+    text-align: center;
+}
+.logo{
+    display: flex;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.right-navbar{
+      display: inline-block;
+      margin-right: 40px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: black;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 25px;
+ padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+
+}
+.col-2{
+    min-width: 300px;
+}
+.col-2 img{
+   max-width: 100%;
+   padding: 50px 0;
+}
+.col-2 h1{ 
+    font-size: 50px;
+    line-height: 60px; 
+    margin: 25px 0;   
+}
+.btn{
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 8px 80px; 
+    margin: 30px 0; 
+    border-radius: 30px;
+}
+.account{
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 6px 20px; 
+    margin: 15px 0; 
+    border-radius: 30px;
+}
+.header .row{
+    margin-top: 30px; 
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 362px;
+}
+.small-container{
+    max-width: 1440px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row-2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.btn-2{
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 8px 40px;
+    margin: 30px 0;
+    border-radius: 30px;
+    margin-left: 500px;
+}
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.latest-news h2{
+    text-align: center;
+}
+.latest-news p{
+    text-align: center;
+}
+
